@@ -17,8 +17,8 @@ This is a simple yet powerful video downloader application that can download vid
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/simple-video-mp3-downloader.git
-   cd simple-video-mp3-downloader
+   git clone https://github.com/NimithSan/simple-video-downloader.git
+   cd simple-video-downloader
    ```
 
 2. Create a virtual environment (optional but recommended):
