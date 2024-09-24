@@ -2,56 +2,57 @@
 
 ![Preview](preview.png)
 
-This is a simple yet powerful video downloader application that can download videos and extract audio from various sources, including YouTube, TikTok, and other video platforms.
+This is a simple yet powerful video downloader application that can download videos, extract audio, and now also handle batch downloads from various sources, including YouTube, TikTok, and other video platforms.
 
 ## Features
 
-- 🎥 Download videos from multiple sources (YouTube, TikTok, and more)
-- 🎵 Extract audio (MP3) from videos
-- 🖼️ User-friendly graphical interface
-- 📊 Real-time download progress bar
-- 📂 Custom output directory selection
-- 🎚️ Video quality selection (for video downloads)
+- 🎥 **Download videos** from multiple sources (YouTube, TikTok, and more)
+- 🎵 **Extract audio (MP3)** from videos
+- 🖼️ **User-friendly graphical interface**
+- 📊 **Real-time download progress bar**
+- 📂 **Custom output directory selection**
+- 🎚️ **Video quality selection** (for video downloads)
+- 🌀 **Batch download support**: Add multiple URLs or extract all videos from an account
+- 🌙 **Light/Dark mode toggle** for UI personalization
+- 🔗 **Extract all videos from an account** (This Feature is Working For Tiktok Account only for now)
 
 ## Installation
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/NimithSan/simple-video-downloader.git
-   cd simple-video-downloader
-   ```
+Clone this repository:
 
-2. Create a virtual environment (optional but recommended):
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
+```bash
+git clone https://github.com/NimithSan/simple-video-downloader.git
+cd simple-video-downloader
+```
 
-3. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
-1. Run the application:
-   ```
-   python main.py
-   ```
+Run the application:
 
-2. Enter the URL of the video you want to download.
+```bash
+python main.py
+```
 
-3. Select the output directory where you want to save the downloaded file.
-
-4. Choose whether you want to download the video or extract audio only.
-
-5. If downloading video, select the desired quality.
-
-6. Click the "Download" button to start the process.
-
-7. Monitor the progress bar and status updates.
-
-8. Once complete, find your downloaded file in the specified output directory.
+1. Enter the URL(s) of the video(s) you want to download.
+2. Select the output directory where you want to save the downloaded file(s).
+3. Choose between downloading video or extracting audio only.
+4. If downloading video, select the desired quality.
+5. Click the "Download" button to start the process.
+6. Monitor the progress bar and status updates.
+7. Once complete, find your downloaded file(s) in the specified output directory.
 
 ## Supported Platforms
 
@@ -63,8 +64,7 @@ This downloader supports a wide range of video platforms, including but not limi
 - Dailymotion
 - Facebook
 - Instagram
-
-And many more! If the platform is supported by yt-dlp, it should work with this downloader.
+- And many more! If the platform is supported by yt-dlp, it should work with this downloader.
 
 ## Contributing
 
